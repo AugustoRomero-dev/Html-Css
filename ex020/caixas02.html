@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: darkgray;
+        }
+        h1{
+            padding-left: 10px;
+            font-weight: 900;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            background-color: aliceblue;
+            
+           
+            padding-left: 10px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+            margin: 10px;
+            border-radius: 10px;
+             box-shadow: 4px 2px 7px 1px rgba(0, 0, 0, 0.616);
+            
+
+        }
+        nav{
+            background-color: darkgray;
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 4px 2px 7px 1px rgba(0, 0, 0, 0.521);
+            border-radius: 5px;
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            
+            color: rgb(0, 0, 0);
+        }
+        nav > a:hover{
+           text-decoration: underline; 
+        }    
+        
+        main{
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 2px 7px 1px rgba(0, 0, 0, 0.616);
+        }
+        section > article > h2{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        section > article > p{
+            background-color: rgb(190, 190, 190);
+            padding: 5px;
+            margin: 10px;
+        }
+        section > article > aside:hover{
+            text-decoration:underline;
+        }
+        section > article > aside{
+            background-color: rgb(102, 102, 102);
+            color: rgb(0, 0, 0);
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            margin-top: 10px;
+            margin-right: -10px;
+            margin-left: -10px;
+            font-weight: bolder;
+            
+           
+        }   
+        footer > p:hover{
+            text-decoration: underline;
+        }
+        #saude > aside{
+            background-color: rgb(102, 102, 102);
+            color: rgb(0, 0, 0);
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MENU</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticias">
+           <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, incidunt eveniet nobis debitis laborum voluptatum cumque. Explicabo et, nemo iste ex, facilis aliquam illo reprehenderit neque veritatis earum culpa suscipit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolorum veritatis perspiciatis error aliquid nostrum amet labore minus, nemo fugiat quaerat odio quia non? Fuga explicabo veritatis quasi est quas.</p>
+        
+                <aside>
+                    Artigo escrito por jose da Silva
+                </aside>
+            
+           </article>
+           <article>
+                
+           </article>
+           
+        </section>  
+        
+    </main>
+    <footer>
+            <p>Desenvolvido Pelo CursoEmVideo</p>
+    </footer>
+    <main>
+        <h2>Hábitos Saudáveis</h2>
+        <article id="saude">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime cumque, quod animi culpa dolorum ipsum maiores aliquam neque nisi fuga aspernatur libero? Accusamus unde labore libero quibusdam alias nam nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, eum! Nobis minus voluptatum perspiciatis mollitia provident est! Eveniet vero quae porro voluptate deleniti, voluptatem libero impedit molestias nostrum qui rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, atque possimus. Sit, architecto quasi, error laudantium eligendi magni saepe deserunt nostrum consectetur quae, laborum expedita quas nesciunt itaque impedit aspernatur!</p>
+            
+                <aside>Escrito Por Augusto Cury</aside>
+            
+        </article>
+        
+    </main>
+</body>
+</html>
