@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testando fundos</title>
+    <title>Fundo Fixo De Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main{
@@ -21,20 +25,32 @@
             padding: 10px;
             border: 1px solid black;
         }
+        /*
+        shortand - background:
+        color > image > position > repeat > [size]
+        > attachment
+        
+        
+        
+        background-size: 100% ele vai adaptar o tamanho e nao vai ficar estranho, mas vai ficar sem imgaem na parte de baixo
+
+        100% 100% ele vai resolver o em baixo, mas distorce a imagem
+
+        contain: nao corta a imagem mas fica aspecto de filme
+
+        cover: cobre o fundo todo, mesmo que precise picotar a imagem
+
+        nao esqueça de utilizar height: 100vh 
+
+        background-attachment: fixed: o fundo nao vai rolar
+        
+        */
     </style>
    
     
 </head>
 <body>
-    /* background-size: 100% ele vai adaptar o tamanho e nao vai ficar estranho, mas vai ficar sem imgaem na parte de baixo
-
-    100% 100% ele vai resolver o em baixo, mas distorce a imagem
-
-    contain: nao corta a imagem mas fica aspecto de filme
-
-    cover: cobre o fundo todo, mesmo que precise picotar a imagem
-
-    nao esqueça de utilizar height: 100vh */
+    
     <main>
         <h1>Testando Fundos</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, et laborum magni, aliquid maiores suscipit quaerat at necessitatibus aliquam iure repellat? Id reprehenderit dolorum fuga quibusdam recusandae ex eveniet rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat illum labore necessitatibus reprehenderit harum ea? Rerum illo dolorem reiciendis unde modi, quis magnam architecto, totam, obcaecati corrupti a magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt velit ipsam dolores consequatur odit voluptatem sit quaerat sint. Dicta, asperiores natus? Fugiat ad perspiciatis tenetur suscipit fuga, placeat deserunt non?</p>
